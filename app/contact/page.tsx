@@ -43,7 +43,7 @@ const Contact = () => {
                     </Text>
                     <Grid
                         mt = "1em"
-                        templateRows = "repeat(12, 1fr)"
+                        templateRows = "repeat(2, 1fr)"
                         templateColumns = "repeat(12, 1fr)"
                         gap={4}
                         
