@@ -121,7 +121,7 @@ const Contact = () => {
                                         />
                                     </FormControl>
                                     <FormControl>
-                                        <FormLabel>Name</FormLabel>
+                                        <FormLabel>Message</FormLabel>
                                         <Textarea
                                             h = "2em"
                                             placeholder='Type your message here...'
