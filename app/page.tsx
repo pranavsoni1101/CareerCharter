@@ -44,7 +44,7 @@ const Home = () => {
                                 position: 'absolute',
                                 bottom: 1,
                                 left: 0,
-                                bg: '#fc0349',
+                                bg: '#F78DA7',
                                 zIndex: -1,
                             }}
                         > 
@@ -62,7 +62,7 @@ const Home = () => {
                                 position: 'absolute',
                                 bottom: 1,
                                 left: 0,
-                                bg: '#03ebfc',
+                                bg: '#8ED1FC',
                                 zIndex: -1,
                             }}  
                         >
@@ -84,15 +84,15 @@ const Home = () => {
                         order={3}
                         w  = "sm"
                         mt = "1rem"
-                        color={useColorModeValue("#fc0349", "#03ebfc")}
+                        color={useColorModeValue("#F78DA7", "#8ED1FC")}
                         variant= "outline"
                         borderRadius = "xl"
-                        border= {useColorModeValue("2px solid #fc0349", "2px solid #03ebfc")}
+                        border= {useColorModeValue("2px solid #F78DA7", "2px solid #8ED1FC")}
                         transition= "0.6s linear"
                         _hover={{
                             border: "none",
                             color: "#fff",
-                            background: useColorModeValue("#fc0349", "#03ebfc")
+                            background: useColorModeValue("#F78DA7", "#8ED1FC")
                         }}
                     >
                         Learn More

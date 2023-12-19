@@ -11,7 +11,7 @@ import { Box, Button, Flex, FormControl,
     } from '@chakra-ui/react';
 import { EmailIcon, PhoneIcon } from "@chakra-ui/icons";
 import { Metadata } from 'next';
-import Head from 'next/head';
+// import Head from 'next/head';
 
 
 // export const metadata: Metadata = {
@@ -21,9 +21,9 @@ import Head from 'next/head';
 const Contact = () => {
     return(
         <>  
-            <Head>
+            {/* <Head>
                 <title>Contact Us</title>
-            </Head>
+            </Head> */}
             <Section>
                 <SectionContent>
                     <Heading
@@ -78,6 +78,14 @@ const Contact = () => {
                                             type = "text"
                                             variant= "filled"
                                             placeholder='Raj Sharma'
+                                            color={useColorModeValue("black", "white")}
+                                            bg = {useColorModeValue("gray.100","gray.700")}
+                                            _focus={{
+                                                bg: useColorModeValue("gray.100","gray.700")
+                                            }}
+                                            _hover={{
+                                                bg: useColorModeValue("gray.100","gray.600")
+                                            }}
                                         />
                                     </FormControl>
                                     <FormControl>
@@ -86,6 +94,14 @@ const Contact = () => {
                                             type = "text"
                                             variant= "filled"
                                             placeholder='+91xxxxx-xxxxx'
+                                            color={useColorModeValue("black", "white")}
+                                            bg = {useColorModeValue("gray.100","gray.700")}
+                                            _focus={{
+                                                bg: useColorModeValue("gray.100","gray.700")
+                                            }}
+                                            _hover={{
+                                                bg: useColorModeValue("gray.100","gray.600")
+                                            }}
                                         />
                                     </FormControl>
                                     <FormControl>
@@ -94,6 +110,14 @@ const Contact = () => {
                                             type = "Email"
                                             variant= "filled"
                                             placeholder= 'rajsharma@abc.com'
+                                            color={useColorModeValue("black", "white")}
+                                            bg = {useColorModeValue("gray.100","gray.700")}
+                                            _focus={{
+                                                bg: useColorModeValue("gray.100","gray.700")
+                                            }}
+                                            _hover={{
+                                                bg: useColorModeValue("gray.100","gray.600")
+                                            }}
                                         />
                                     </FormControl>
                                     <FormControl>
@@ -102,7 +126,14 @@ const Contact = () => {
                                             h = "2em"
                                             placeholder='Type your message here...'
                                             variant= "filled"
-
+                                            color={useColorModeValue("black", "white")}
+                                            bg = {useColorModeValue("gray.100","gray.700")}
+                                            _focus={{
+                                                bg: useColorModeValue("gray.100","gray.700")
+                                            }}
+                                            _hover={{
+                                                bg: useColorModeValue("gray.100","gray.600")
+                                            }}
                                         />
                                     </FormControl>
                                     <Button
