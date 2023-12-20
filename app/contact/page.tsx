@@ -53,7 +53,7 @@ const Contact = () => {
                             rowSpan={2}
                             >
                             <Box
-                                bg = {useColorModeValue("gray.700", "white")}
+                                bg = {useColorModeValue("gray.600", "white")}
                                 color = {useColorModeValue("white", "black")}
                                 p            = "2em"
                                 borderRadius = "2xl"
@@ -79,9 +79,9 @@ const Contact = () => {
                                             variant= "filled"
                                             placeholder='Raj Sharma'
                                             color={useColorModeValue("black", "white")}
-                                            bg = {useColorModeValue("gray.100","gray.700")}
+                                            bg = {useColorModeValue("gray.100","gray.600")}
                                             _focus={{
-                                                bg: useColorModeValue("gray.100","gray.700")
+                                                bg: useColorModeValue("gray.100","gray.600")
                                             }}
                                             _hover={{
                                                 bg: useColorModeValue("gray.100","gray.600")
@@ -95,9 +95,9 @@ const Contact = () => {
                                             variant= "filled"
                                             placeholder='+91xxxxx-xxxxx'
                                             color={useColorModeValue("black", "white")}
-                                            bg = {useColorModeValue("gray.100","gray.700")}
+                                            bg = {useColorModeValue("gray.100","gray.600")}
                                             _focus={{
-                                                bg: useColorModeValue("gray.100","gray.700")
+                                                bg: useColorModeValue("gray.100","gray.600")
                                             }}
                                             _hover={{
                                                 bg: useColorModeValue("gray.100","gray.600")
@@ -111,9 +111,9 @@ const Contact = () => {
                                             variant= "filled"
                                             placeholder= 'rajsharma@abc.com'
                                             color={useColorModeValue("black", "white")}
-                                            bg = {useColorModeValue("gray.100","gray.700")}
+                                            bg = {useColorModeValue("gray.100","gray.600")}
                                             _focus={{
-                                                bg: useColorModeValue("gray.100","gray.700")
+                                                bg: useColorModeValue("gray.100","gray.600")
                                             }}
                                             _hover={{
                                                 bg: useColorModeValue("gray.100","gray.600")
@@ -127,9 +127,9 @@ const Contact = () => {
                                             placeholder='Type your message here...'
                                             variant= "filled"
                                             color={useColorModeValue("black", "white")}
-                                            bg = {useColorModeValue("gray.100","gray.700")}
+                                            bg = {useColorModeValue("gray.100","gray.600")}
                                             _focus={{
-                                                bg: useColorModeValue("gray.100","gray.700")
+                                                bg: useColorModeValue("gray.100","gray.600")
                                             }}
                                             _hover={{
                                                 bg: useColorModeValue("gray.100","gray.600")
@@ -165,14 +165,14 @@ const Contact = () => {
                                 boxShadow= "xl"
                                 borderRadius= "2xl"
                                 spacing={4}
-                                bg = {useColorModeValue("gray.700", "white")}
+                                bg = {useColorModeValue("gray.600", "white")}
                                 color = {useColorModeValue("black", "white")}
                             >
                                 <HStack  
                                     borderRadius= "lg"
                                     w = "100%"
                                     p = "1em"
-                                    bg = {useColorModeValue("gray.100", "gray.700")}
+                                    bg = {useColorModeValue("gray.100", "gray.600")}
                                     spacing={6}
                                 >
                                     <EmailIcon
@@ -198,7 +198,7 @@ const Contact = () => {
                                     borderRadius= "lg"
                                     w = "100%"
                                     p = "1em"
-                                    bg = {useColorModeValue("gray.100", "gray.700")}
+                                    bg = {useColorModeValue("gray.100", "gray.600")}
                                     spacing={6}
                                 >
                                     <PhoneIcon
