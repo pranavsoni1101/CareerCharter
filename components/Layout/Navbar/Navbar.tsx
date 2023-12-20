@@ -51,6 +51,11 @@ const Navbar = () => {
                                 >
                                     Services
                                 </Link>
+                                <Link
+                                    href= "/contact"
+                                >
+                                    Contact
+                                </Link>
                             </Stack>
                                 <Button 
                                     onClick = {toggleColorMode}
