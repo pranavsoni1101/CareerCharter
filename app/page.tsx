@@ -5,6 +5,7 @@ import Section from '@/components/Section/Section';
 import SectionContent from '@/components/Section/SectionContent';
 import { Flex, Button, Heading, Text, useColorModeValue, Box,Container, VStack } from '@chakra-ui/react';
 import WaveSVG from '@/components/WaveSVG';
+import Testimonials from '@/components/Testimonials';
 
 // import './Home.css'
 
@@ -108,6 +109,9 @@ const Home = () => {
                     <WaveSVG />
                 </Box>
             </Container>
+
+            {/* Testimonials Section */}
+            <Testimonials />
         </>
     )
 }
