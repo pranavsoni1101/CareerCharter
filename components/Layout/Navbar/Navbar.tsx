@@ -42,7 +42,7 @@ const Navbar = () => {
                                     </Text>
                                 </Link>
                                 <Link
-                                    href= "/"
+                                    href= "/about"
                                 >
                                     About
                                 </Link>
