@@ -27,6 +27,8 @@ const Navbar = () => {
                             alt = 'Career Charter Logo'
                         /> */}
                         <Heading
+                            as= {Link}
+                            href= "/"
                             textTransform= "uppercase"
                             size="md"
                         >
@@ -47,7 +49,7 @@ const Navbar = () => {
                                     About
                                 </Link>
                                 <Link
-                                    href= "/"
+                                    href= "/services"
                                 >
                                     Services
                                 </Link>
