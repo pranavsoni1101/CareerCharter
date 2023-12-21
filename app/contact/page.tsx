@@ -53,7 +53,7 @@ const Contact = () => {
                             rowSpan={2}
                             >
                             <Box
-                                bg = {useColorModeValue("gray.600", "white")}
+                                bg = {useColorModeValue( "#8ED1FC","#F78DA7  ")}
                                 color = {useColorModeValue("white", "black")}
                                 p            = "2em"
                                 borderRadius = "2xl"
@@ -81,10 +81,12 @@ const Contact = () => {
                                             color={useColorModeValue("black", "white")}
                                             bg = {useColorModeValue("gray.100","gray.600")}
                                             _focus={{
-                                                bg: useColorModeValue("gray.100","gray.600")
+                                                bg: useColorModeValue("gray.100","gray.600"),
+                                                border: "2px solid #F78DA7"
                                             }}
                                             _hover={{
-                                                bg: useColorModeValue("gray.100","gray.600")
+                                                bg: useColorModeValue("gray.100","gray.600"),
+                                                border: "2px solid #F78DA7"
                                             }}
                                         />
                                     </FormControl>
@@ -97,10 +99,12 @@ const Contact = () => {
                                             color={useColorModeValue("black", "white")}
                                             bg = {useColorModeValue("gray.100","gray.600")}
                                             _focus={{
-                                                bg: useColorModeValue("gray.100","gray.600")
+                                                bg: useColorModeValue("gray.100","gray.600"),
+                                                border: "2px solid #F78DA7"
                                             }}
                                             _hover={{
-                                                bg: useColorModeValue("gray.100","gray.600")
+                                                bg: useColorModeValue("gray.100","gray.600"),
+                                                border: "2px solid #F78DA7"
                                             }}
                                         />
                                     </FormControl>
@@ -113,10 +117,12 @@ const Contact = () => {
                                             color={useColorModeValue("black", "white")}
                                             bg = {useColorModeValue("gray.100","gray.600")}
                                             _focus={{
-                                                bg: useColorModeValue("gray.100","gray.600")
+                                                bg: useColorModeValue("gray.100","gray.600"),
+                                                border: "2px solid #F78DA7"
                                             }}
                                             _hover={{
-                                                bg: useColorModeValue("gray.100","gray.600")
+                                                bg: useColorModeValue("gray.100","gray.600"),
+                                                border: "2px solid #F78DA7"
                                             }}
                                         />
                                     </FormControl>
@@ -129,10 +135,12 @@ const Contact = () => {
                                             color={useColorModeValue("black", "white")}
                                             bg = {useColorModeValue("gray.100","gray.600")}
                                             _focus={{
-                                                bg: useColorModeValue("gray.100","gray.600")
+                                                bg: useColorModeValue("gray.100","gray.600"),
+                                                border: "2px solid #F78DA7"
                                             }}
                                             _hover={{
-                                                bg: useColorModeValue("gray.100","gray.600")
+                                                bg: useColorModeValue("gray.100","gray.600"),
+                                                border: "2px solid #F78DA7"
                                             }}
                                         />
                                     </FormControl>
@@ -165,7 +173,9 @@ const Contact = () => {
                                 boxShadow= "xl"
                                 borderRadius= "2xl"
                                 spacing={4}
-                                bg = {useColorModeValue("gray.600", "white")}
+                                bg = {useColorModeValue( "#F78DA7","#8ED1FC")}
+
+                                // bg = {useColorModeValue("gray.600", "white")}
                                 color = {useColorModeValue("black", "white")}
                             >
                                 <HStack  
